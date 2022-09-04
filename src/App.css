@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+/*root colors for the web app*/
+:root {
+  --main-color: #4671ff;
+  --color-dark: #1d2231;
+  --text-grey: #8390a2;
+}
+
+html,body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serifs;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(114, 113, 113);
+    border-radius: 10px;
+    height: 200px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .search-bar{
+    border:none;
+    outline:none;
+    width:350px;
+  }
+  /* .card {
+    margin-top: 10px;
+    height: fit-content;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 6px 6px 9px #dee1e5, -2px -2px 5px #ffffff;
+  }  */
+   

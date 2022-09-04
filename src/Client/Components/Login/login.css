@@ -1,0 +1,89 @@
+.login_ctr {
+  margin-top: 7% !important;
+  width: 60% !important;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 6px 6px 9px #dee1e5, -2px -2px 5px #ffffff;
+  background-color: white;
+  border-radius: 7px;
+
+  
+}
+/* .card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin: 20px 10px;
+  background-color: white;
+  border-radius: 5px;
+  width: 70%;
+  margin: 15px auto;
+  
+} */
+.login_form {
+  height: 90%;
+  width: 80%;
+  margin: 5% auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.login_form_ctr {
+  flex: 1;
+}
+.form_ctr {
+  height: 75%;
+}
+.login_inputs_ctr {
+  flex: 2;
+}
+.login_btn_ctr {
+  flex: 1;
+  display: flex;
+  /* width: 100%; */
+  
+}
+.login_txt h3{
+  font-size: 28px;
+  color: blue;
+}
+.login-logo-ctr {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-inputs-ctr-d {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+/*media queries........*/
+
+@media screen and (max-width: 1024px) {
+  .login_ctr {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login_ctr {
+    flex-direction: column;
+  }
+  .login_ctr {
+      width: 90% !important;
+      margin-top: 15% !important;
+      margin: 9px auto;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      /* margin: 20px 10px; */
+      background-color: white;
+      border-radius: 5px;
+      /* width: 70%;
+      margin: 15px auto; */
+      
+    }
+
+}
