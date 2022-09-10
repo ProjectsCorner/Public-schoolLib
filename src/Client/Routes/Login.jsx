@@ -1,11 +1,11 @@
 import { Button, CircularProgress, TextField } from '@mui/material';
-import React from 'react'
-import FormsApi from '..//..//../api/api';
-import LOGO from "..//..//../Assets/lira_logo.png";
-import "../Login/login.css";
+import React, { useState } from 'react'
+import FormsApi from '..//../api/api';
+import LOGO from "..//../Assets/lira_logo.png";
+import "../Design/login.css";
 
 const Login = () => {
- 
+//  const [postData, setPostData] = useState(false);
 
 // const form_submit = async(e)=>{
 //     e.preventDefault();
@@ -17,8 +17,17 @@ const Login = () => {
 //     const api = new FormsApi();
 //     const res = await api.post("/user/login", fobject);
 //     if(res!== error){
+//       form_submit(
+//         ...state,
+//         postData(true),
+
+//         );
+      
 
 //     }else{
+//       setPostData(false);
+
+
 
 //     }
 // }
